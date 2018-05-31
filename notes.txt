@@ -1,0 +1,5 @@
+Set up Bootstrap
+---------------
+1. yarn add bootstrap
+2. add bootstrap.min.css into .angular-cli.json, "node_modules/bootstrap/dist/css/bootstrap.css"
+3. restart ng serve to reflect changes on angular-cli.json

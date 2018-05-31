@@ -1,0 +1,11 @@
+<div class="detail">
+  <img class="col-12" src="https://imgplaceholder.com/820x220/cccccc/757575/glyphicon-education" />
+  <h1>{{course?.title}}</h1>
+  <h6>Decription:</h6>
+  <h4>{{course?.shortDescription}}</h4>
+  <h6>About:</h6>
+  <p>{{course?.about}}</p>
+  <h1>{{course?.price | currency}}</h1>
+  <button class="btn btn-success">ENROLL</button>
+  <button class="btn btn-warning" (click)="goBack()">GO TO COURSES</button>
+</div>

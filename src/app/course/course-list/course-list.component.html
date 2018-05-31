@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>List Of Courses</h1>
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let c of courses">
+      <app-course-list-item [course]="c"></app-course-list-item>
+    </div>
+  </div>
+</div>
